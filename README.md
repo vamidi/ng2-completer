@@ -13,7 +13,7 @@ If you are currently using ng2-completer and interested to maintain it please le
 ## Installation
 
 ```sh
-npm install ng2-completer --save
+npm install @vamidicreations/ng2-completer --save
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
-import { Ng2CompleterModule } from "ng2-completer";
+import { Ng2CompleterModule } from "@vamidicreations/ng2-completer";
 
 
 @NgModule({
@@ -47,7 +47,7 @@ Add ng2-completer to your component and create a data source:
 
 ```ts
 import { Component } from '@angular/core';
-import { CompleterService, CompleterData } from 'ng2-completer';
+import { CompleterService, CompleterData } from '@vamidicreations/ng2-completer';
 
 @Component({
   selector: 'my-component',
@@ -88,7 +88,7 @@ Add the following to `System.js` map configuration:
 ```ts
    var map = {
        ...
-       'ng2-completer': 'node_modules/ng2-completer/ng2-completer.umd.js'
+       '@vamidicreations/ng2-completer': 'node_modules/@vamidicreations/ng2-completer/ng2-completer.umd.js'
    }
 ```
 

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 10.0.0(2020-11-03)
+ - Upgrade to angular 10
+ - Fix Generic type argument [#456](https://github.com/oferh/ng2-completer/issues/456)
+
 ## 9.0.1(2020-04-09)
  - Upgrade to angular 9
  - Follow angular version numbers
